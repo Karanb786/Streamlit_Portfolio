@@ -189,7 +189,7 @@ skills = {
     "Deep Learning":65
 }
 
-import streamlit as st
+"""import streamlit as st
 from openai import OpenAI
 
 client = OpenAI(
@@ -208,7 +208,7 @@ if prompt:
         ]
     )
 
-    st.write(response.choices[0].message.content)
+    st.write(response.choices[0].message.content)"""
     
 # Footer
 st.markdown("---")
