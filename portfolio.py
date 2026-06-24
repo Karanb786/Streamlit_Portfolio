@@ -188,27 +188,6 @@ skills = {
     "Django":70,
     "Deep Learning":65
 }
-
-"""import streamlit as st
-from openai import OpenAI
-
-client = OpenAI(
-    api_key=st.secrets["OPENAI_API_KEY"]
-)
-
-st.title("Karan Baiga AI Portfolio")
-
-prompt = st.chat_input("Ask me anything about my profile")
-
-if prompt:
-    response = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[
-            {"role": "user", "content": prompt}
-        ]
-    )
-
-    st.write(response.choices[0].message.content)"""
     
 # Footer
 st.markdown("---")
